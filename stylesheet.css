@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    background:#12229d;
+}
+
+h2{
+    padding: 30px;
+    color:white;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    background: #050a30;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+p{
+    padding: 7px;
+}
+
+button{
+    background:#5cb6f9;
+    border-radius: 5px;
+    color: #050a30;
+    font-weight: bold;
+    
+}
+
+#mensagem{
+    color: aliceblue;
+    text-align: center;
+}
